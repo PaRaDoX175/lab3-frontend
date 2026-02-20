@@ -1,0 +1,21 @@
+.page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px 40px;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+
+
+.dark .card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

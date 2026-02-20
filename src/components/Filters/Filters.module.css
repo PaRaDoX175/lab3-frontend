@@ -1,0 +1,21 @@
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filters select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filters select:hover {
+  border-color: #6c8cff;
+}
